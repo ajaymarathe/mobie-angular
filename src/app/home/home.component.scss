@@ -1,0 +1,29 @@
+.home{
+  .first-section{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(67,144,233,1) 0%, rgba(78,226,198,1) 90.1% );
+  }
+  .second-section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+//navbar
+.navbar-transparent {
+  position: absolute;
+  //top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #32325d;
+}
+.text-light-blue{
+  color: #5d648e;
+}
+
+

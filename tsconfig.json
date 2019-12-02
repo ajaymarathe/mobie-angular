@@ -1,0 +1,64 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "base-button": [
+        "dist/base-button"
+      ],
+      "base-button/*": [
+        "dist/base-button/*"
+      ],
+      "base-card": [
+        "dist/base-card"
+      ],
+      "base-card/*": [
+        "dist/base-card/*"
+      ],
+      "base-card-body": [
+        "dist/base-card-body"
+      ],
+      "base-card-body/*": [
+        "dist/base-card-body/*"
+      ],
+      "base-cardbody": [
+        "dist/base-cardbody"
+      ],
+      "base-cardbody/*": [
+        "dist/base-cardbody/*"
+      ],
+      "base-cardheader": [
+        "dist/base-cardheader"
+      ],
+      "base-cardheader/*": [
+        "dist/base-cardheader/*"
+      ],
+      "base-cardfooter": [
+        "dist/base-cardfooter"
+      ],
+      "base-cardfooter/*": [
+        "dist/base-cardfooter/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
