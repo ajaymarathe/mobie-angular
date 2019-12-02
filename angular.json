@@ -31,7 +31,11 @@
               "src/styles.scss",
               "node_modules/bootcatch-themes/dist/supine/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -328,6 +332,111 @@
             "tsConfig": [
               "projects/base-cardfooter/tsconfig.lib.json",
               "projects/base-cardfooter/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "base-badge": {
+      "projectType": "library",
+      "root": "projects/base-badge",
+      "sourceRoot": "projects/base-badge/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/base-badge/tsconfig.lib.json",
+            "project": "projects/base-badge/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/base-badge/src/test.ts",
+            "tsConfig": "projects/base-badge/tsconfig.spec.json",
+            "karmaConfig": "projects/base-badge/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/base-badge/tsconfig.lib.json",
+              "projects/base-badge/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "base-alert": {
+      "projectType": "library",
+      "root": "projects/base-alert",
+      "sourceRoot": "projects/base-alert/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/base-alert/tsconfig.lib.json",
+            "project": "projects/base-alert/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/base-alert/src/test.ts",
+            "tsConfig": "projects/base-alert/tsconfig.spec.json",
+            "karmaConfig": "projects/base-alert/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/base-alert/tsconfig.lib.json",
+              "projects/base-alert/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "base-spinner": {
+      "projectType": "library",
+      "root": "projects/base-spinner",
+      "sourceRoot": "projects/base-spinner/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/base-spinner/tsconfig.lib.json",
+            "project": "projects/base-spinner/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/base-spinner/src/test.ts",
+            "tsConfig": "projects/base-spinner/tsconfig.spec.json",
+            "karmaConfig": "projects/base-spinner/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/base-spinner/tsconfig.lib.json",
+              "projects/base-spinner/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

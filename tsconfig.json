@@ -54,6 +54,24 @@
       ],
       "base-cardfooter/*": [
         "dist/base-cardfooter/*"
+      ],
+      "base-badge": [
+        "dist/base-badge"
+      ],
+      "base-badge/*": [
+        "dist/base-badge/*"
+      ],
+      "base-alert": [
+        "dist/base-alert"
+      ],
+      "base-alert/*": [
+        "dist/base-alert/*"
+      ],
+      "base-spinner": [
+        "dist/base-spinner"
+      ],
+      "base-spinner/*": [
+        "dist/base-spinner/*"
       ]
     }
   },

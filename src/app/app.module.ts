@@ -12,6 +12,9 @@ import {BaseCardModule} from '../../projects/base-card/src/lib/base-card.module'
 import {BaseCardbodyModule} from '../../projects/base-cardbody/src/lib/base-cardbody.module';
 import {BaseCardfooterModule} from '../../projects/base-cardfooter/src/lib/base-cardfooter.module';
 import {BaseCardheaderModule} from '../../projects/base-cardheader/src/lib/base-cardheader.module';
+import {BaseBadgeModule} from '../../projects/base-badge/src/lib/base-badge.module';
+import {BaseAlertModule} from '../../projects/base-alert/src/lib/base-alert.module';
+import {BaseSpinnerModule} from '../../projects/base-spinner/src/lib/base-spinner.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import {BaseCardheaderModule} from '../../projects/base-cardheader/src/lib/base-
     BaseCardModule,
     BaseCardbodyModule,
     BaseCardfooterModule,
-    BaseCardheaderModule
+    BaseCardheaderModule,
+    BaseBadgeModule,
+    BaseAlertModule,
+    BaseSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
