@@ -57,20 +57,6 @@
             <base-button class="mr-2" color="warning" size="lg">Large</base-button>
           </div>
           <div class="mb-5">
-            <h5 class="mb-4 text-light-blue">Cards</h5>
-            <div class="row">
-              <div class="col-md-4">
-                <base-card>
-                  <base-cardbody>
-                    <h5 class="card-title">Card Title</h5>
-                    <p class="text-light-blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, et facere illum ipsa, ipsam repellat, sequi sunt tempora totam ullam ut veritatis. Doloremque incidunt ipsa iusto nostrum porro sequi similique.</p>
-                    <base-button color="primary">Go Foo</base-button>
-                  </base-cardbody>
-                </base-card>
-              </div>
-            </div>
-          </div>
-          <div class="mb-5">
             <h5 class="mb-4 text-light-blue">Badges</h5>
             <base-badge class="mr-2" color="warning">warning</base-badge>
             <base-badge class="mr-2" color="primary">primary</base-badge>
@@ -81,7 +67,41 @@
             <base-badge class="mr-2" color="light">light</base-badge>
             <base-badge class="mr-2" color="dark">dark</base-badge>
           </div>
-
+          <div class="mb-5">
+            <h5 class="mb-4 text-light-blue">Cards</h5>
+            <div class="row">
+              <div class="col-md-4">
+                <base-card>
+                  <img class="card-img-top" src="../../assets/img/slide1.png" >
+                  <base-cardbody>
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="text-light-blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, et facere illum ipsa, ipsam repellat.</p>
+                    <base-button color="primary">Go Foo</base-button>
+                  </base-cardbody>
+                </base-card>
+              </div>
+              <div class="col-md-4">
+                <base-card>
+                  <img class="card-img-top" src="../../assets/img/slide3.png" >
+                  <base-cardbody>
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="text-light-blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, et facere illum ipsa, ipsam repellat.</p>
+                    <base-button color="primary">Go Foo</base-button>
+                  </base-cardbody>
+                </base-card>
+              </div>
+              <div class="col-md-4">
+                <base-card>
+                  <img class="card-img-top" src="../../assets/img/slide4.jpg" >
+                  <base-cardbody>
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="text-light-blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, et facere illum ipsa, ipsam repellat.</p>
+                    <base-button color="primary">Go Foo</base-button>
+                  </base-cardbody>
+                </base-card>
+              </div>
+            </div>
+          </div>
           <div class="mb-5">
             <h5 class="mb-4 text-light-blue">Alerts</h5>
             <base-alert color="primary">A simple primary alert—check it out!</base-alert>
@@ -260,7 +280,7 @@
             </div>
           </div>
           <div class="mb-5">
-            <h5 class="mb-4">Progressbar</h5>
+            <h5 class="mb-4 text-light-blue">Progressbar</h5>
             <div class="row">
               <div class="col-md-12">
                 <div class="mb-2">
@@ -275,11 +295,333 @@
                 <div class="mb-2">
                   <base-progress width="60" color="primary" animation="animated" type="striped" size="1.5"></base-progress>
                 </div>
-
+                <div class="mb-2">
+                  <base-progress width="70" color="success" ></base-progress>
+                </div>
+                <div class="mb-2">
+                  <base-progress width="80" color="warning" animation="animated" type="striped" size="1.5"></base-progress>
+                </div>
+                <div class="mb-2">
+                  <base-progress width="90" color="dark" animation="animated" type="striped" size="2"></base-progress>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-5">
+            <h5 class="mb-4 text-light-blue">Pagination</h5>
+            <div class="row">
+              <div class="col-md-4">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination pagination-sm">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active"><a class="page-link " href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-md-4">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active"><a class="page-link " href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-md-4">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination pagination-lg">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active"><a class="page-link " href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="mb-5">
+            <h4 class="mb-4 text-uppercase">Typography</h4>
+            <div class="row">
+              <div class="col-md-12 mb-5">
+                <h6 class="mb-4 text-uppercase">Headings</h6>
+                <div class="row">
+                  <div class="col-md-3">
+                    <span class="text-uppercase text-muted">heading 1</span>
+                  </div>
+                  <div class="col-md-8">
+                    <h1 class="text-uppercase">mobie-angular</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <span class="text-uppercase text-muted">heading 2</span>
+                  </div>
+                  <div class="col-md-8">
+                    <h2 class="text-uppercase">mobie-angular</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <span class="text-uppercase text-muted">heading 3</span>
+                  </div>
+                  <div class="col-md-8">
+                    <h3 class="text-uppercase">mobie-angular</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <span class="text-uppercase text-muted">heading 4</span>
+                  </div>
+                  <div class="col-md-8">
+                    <h4 class="text-uppercase">mobie-angular</h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <span class="text-uppercase text-muted">heading 5</span>
+                  </div>
+                  <div class="col-md-8">
+                    <h5>mobie-angular</h5>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <span class="text-uppercase text-muted">heading 6</span>
+                  </div>
+                  <div class="col-md-8">
+                    <h6>mobie-angular</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <h6 class="mb-4 text-uppercase">Display</h6>
+                <div class="row align-items-center">
+                  <div class="col-md-3">
+                    <span class="text-uppercase text-muted mt-5">display 1</span>
+                  </div>
+                  <div class="col-md-8">
+                    <h1 class="display-1 text-uppercase">display 1</h1>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-3">
+                    <span class="text-uppercase text-muted">display 2</span>
+                  </div>
+                  <div class="col-md-8">
+                    <h1 class="display-2 text-uppercase">display 2</h1>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-3">
+                    <span class="text-uppercase text-muted">display 3</span>
+                  </div>
+                  <div class="col-md-8">
+                    <h1 class="display-3 text-uppercase">display 3</h1>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-md-3">
+                    <span class="text-uppercase text-muted">display 4</span>
+                  </div>
+                  <div class="col-md-8">
+                    <h1 class="display-4 text-uppercase">display 4</h1>
+                  </div>
+                </div>
+                <h6 class="text-uppercase mt-5 mb-4">Fancy display</h6>
+                <h3>
+                  Fancy display heading
+                  <small class="text-muted">With faded secondary text</small>
+                </h3>
+                <h6 class="text-uppercase mb-4 mt-5">lead</h6>
+                <p class="lead">
+                  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+                </p>
+                <h6 class="mb-4 mt-5 text-uppercase">Inline text elements</h6>
+                <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+                <p><del>This line of text is meant to be treated as deleted text.</del></p>
+                <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+                <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+                <p><u>This line of text will render as underlined</u></p>
+                <p><small>This line of text is meant to be treated as fine print.</small></p>
+                <p><strong>This line rendered as bold text.</strong></p>
+                <p><em>This line rendered as italicized text.</em></p>
+                <h6 class="mb-4 mt-5 text-uppercase">Blockquotes</h6>
+                <blockquote class="blockquote">
+                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                </blockquote>
+                <h6 class="mb-4 mt-5 text-uppercase">text colors</h6>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p class="text-primary">primary</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p class="text-secondary">secondary</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p class="text-success">success</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="text-success">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p class="text-danger">danger</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="text-danger">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p class="text-warning">warning</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="text-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p class="text-info">info</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p class="text-dark">dark</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p class="text-body">body</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p class="text-muted">muted</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <p class="text-black-50">black-50</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+  </div>
+  <div class="third-section lemon-blue" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h2 class="text-uppercase mt-5 mb-4">Mobie-Angular Awesome Design System</h2>
+          <p class="lead mb-4">Mobie-Angular Design system comes with login and register page to help you get started, also it has it's own
+            beautiful documentation to help you out. It is based on <a href="http://www.bootcatch.com/slateblue/alerts" target="_blank">Slateblue Theme</a>. Which is based on Bootstrap 4.3.
+          </p>
+          <base-button color="primary">
+            See all components
+          </base-button>
+        </div>
+        <div class="col-md-6">
+          <div class="l-shapes shadow">
+            <div class=" card border-0">
+              <img class="img-fluid" src="../../assets/img/slide3.png" alt="">
+              <base-cardbody>
+                <h5 class="card-title">base-card-component</h5>
+                <p class="card-text">Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+              </base-cardbody>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<div class="bg-dark">
+  <div class="navbar navbar-expand-lg container">
+    <ul class="navbar-nav w-100">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="http://bootcatch.com/lightly">© 2019 Bootcatch.com</a>
+      </li>
+      <li class="nav-item ml-md-auto">
+        <a class="nav-link text-white" target="_blank" href="http://bootcatch.com/lightly">
+          Bootcatch Team
+        </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="#">
+          About Us
+        </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="#">
+          Blog
+        </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-white" target="_blank" href="https://github.com/ajaymarathe/ng-supine-ui-kit/blob/master/LICENSE">
+          MIT License
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
