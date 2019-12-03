@@ -16,6 +16,7 @@ import {BaseBadgeModule} from '../../projects/base-badge/src/lib/base-badge.modu
 import {BaseAlertModule} from '../../projects/base-alert/src/lib/base-alert.module';
 import {BaseSpinnerModule} from '../../projects/base-spinner/src/lib/base-spinner.module';
 import {BaseMenuModule} from '../../projects/base-menu/src/lib/base-menu.module';
+import {BaseProgressModule} from '../../projects/base-progress/src/lib/base-progress.module';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {BaseMenuModule} from '../../projects/base-menu/src/lib/base-menu.module'
     BaseBadgeModule,
     BaseAlertModule,
     BaseSpinnerModule,
-    BaseMenuModule
+    BaseMenuModule,
+    BaseProgressModule
   ],
   providers: [],
   bootstrap: [AppComponent]
