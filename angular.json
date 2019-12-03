@@ -444,6 +444,41 @@
           }
         }
       }
+    },
+    "base-menu": {
+      "projectType": "library",
+      "root": "projects/base-menu",
+      "sourceRoot": "projects/base-menu/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/base-menu/tsconfig.lib.json",
+            "project": "projects/base-menu/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/base-menu/src/test.ts",
+            "tsConfig": "projects/base-menu/tsconfig.spec.json",
+            "karmaConfig": "projects/base-menu/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/base-menu/tsconfig.lib.json",
+              "projects/base-menu/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "ngMobie"
 }

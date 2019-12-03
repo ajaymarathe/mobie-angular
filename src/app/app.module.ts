@@ -15,6 +15,7 @@ import {BaseCardheaderModule} from '../../projects/base-cardheader/src/lib/base-
 import {BaseBadgeModule} from '../../projects/base-badge/src/lib/base-badge.module';
 import {BaseAlertModule} from '../../projects/base-alert/src/lib/base-alert.module';
 import {BaseSpinnerModule} from '../../projects/base-spinner/src/lib/base-spinner.module';
+import {BaseMenuModule} from '../../projects/base-menu/src/lib/base-menu.module';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {BaseSpinnerModule} from '../../projects/base-spinner/src/lib/base-spinne
     BaseCardheaderModule,
     BaseBadgeModule,
     BaseAlertModule,
-    BaseSpinnerModule
+    BaseSpinnerModule,
+    BaseMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

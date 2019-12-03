@@ -72,6 +72,12 @@
       ],
       "base-spinner/*": [
         "dist/base-spinner/*"
+      ],
+      "base-menu": [
+        "dist/base-menu"
+      ],
+      "base-menu/*": [
+        "dist/base-menu/*"
       ]
     }
   },
